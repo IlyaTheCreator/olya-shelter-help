@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="<%=require('./images/favicon.ico')%>" rel="icon" type="image/x-icon" />
+    <title>Shelter</title>
+  </head>
+  <body>
+    <section class="start-screen">
+      <header class="wrap">
+        <a href="#" class="logo">
+          <p class="logo__title">Cozy House</p>
+          <p class="logo__subtitle">Shelter for pets in Boston</p>
+        </a>
+        <ul>
+          <li class="header__li_active"><a href="#">About the shelter</a></li>
+          <li><a href="our-pets.html">Our pets</a></li>
+          <li><a href="#help">Help the shelter</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </header>
+      <div class="not-only wrap">
+        <div class="not-only__content">
+          <h1>Not only people need a house</h1>
+          <p>
+            We offer to give a chance to a little and nice puppy with an extremely wide and open
+            heart. He or she will love you more than anybody else in the world, you will see!
+          </p>
+          <a href="#our-pets" class="btn-primary">Make a friend</a>
+        </div>
+        <div class="not-only__puppy">
+          <img src="<%=require('./images/start-screen-puppy.png')%>" alt="puppy" />
+        </div>
+      </div>
+    </section>
+    <section class="about wrap">
+      <div class="about__pets">
+        <img src="<%=require('./images/about-pets.png')%>" alt="pets" />
+      </div>
+      <div class="about__content">
+        <h3 class="header-3">About the shelter “Cozy House”</h3>
+        <p>
+          Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of
+          them will find a family. The others will continue to live with us and will be waiting for
+          a lucky chance to become dearly loved.
+        </p>
+        <p>
+          We feed our wards with the best food and make sure that they do not get sick, feel
+          comfortable (including psychologically) and well. We are supported by 87 volunteers and 28
+          employees of various skill levels. About 12% of the animals are taken by the shelter
+          staff. Taking care of the animals, they become attached to the pets and would hardly ever
+          leave them alone.
+        </p>
+      </div>
+    </section>
+    <section class="our-friends" id="our-pets">
+      <div class="wrap">
+        <h3 class="header-3 header-3_center">Our friends who are looking for a house</h3>
+        <div class="our-friends__slider">
+          <div>
+            <button class="btn-arrows">
+              <img src="<%=require('./images/Arrow-l.svg')%>" alt="arrow-left" />
+            </button>
+          </div>
+          <div class="our-friends__slider-card">
+            <img src="<%=require('./images/pets-katrine.png')%>" alt="pets-katrine" />
+            <p>Katrine</p>
+            <button class="btn-primary btn-secondary">Learn more</button>
+          </div>
+          <div class="our-friends__slider-card">
+            <img src="<%=require('./images/pets-jennifer.png')%>" alt="pets-jennifer" />
+            <p>Jennifer</p>
+            <button class="btn-primary btn-secondary">Learn more</button>
+          </div>
+          <div class="our-friends__slider-card">
+            <img src="<%=require('./images/pets-woody.png')%>" alt="pets-woody" />
+            <p>Woody</p>
+            <button class="btn-primary btn-secondary">Learn more</button>
+          </div>
+          <div>
+            <button class="btn-arrows">
+              <img src="<%=require('./images/Arrow-r.svg')%>" alt="arrow-right" />
+            </button>
+          </div>
+        </div>
+        <a href="our-pets.html" class="btn-primary">Get to know the rest</a>
+      </div>
+    </section>
+    <section class="help wrap" id="help">
+      <h3 class="header-3 header-3_center">How you can help our shelter</h3>
+      <div class="help-list">
+        <div class="help-list__card">
+          <img src="<%=require('./images/icon-pet-food.svg')%>" alt="icon-pet-food" />
+          <p>Pet food</p>
+        </div>
+        <div class="help-list__card">
+          <img src="<%=require('./images/icon-transportation.svg')%>" alt="icon-transportation" />
+          <p>Transportation</p>
+        </div>
+        <div class="help-list__card">
+          <img src="<%=require('./images/icon-toys.svg')%>" alt="icon-toys" />
+          <p>Toys</p>
+        </div>
+        <div class="help-list__card">
+          <img src="<%=require('./images/icon-bowls-and-cups.svg')%>" alt="icon-bowls-and-cups" />
+          <p>Bowls and cups</p>
+        </div>
+        <div class="help-list__card">
+          <img src="<%=require('./images/icon-shampoos.svg')%>" alt="icon-shampoos" />
+          <p>Shampoos</p>
+        </div>
+        <div class="help-list__card">
+          <img src="<%=require('./images/icon-vitamins.svg')%>" alt="icon-vitamins" />
+          <p>Vitamins</p>
+        </div>
+        <div class="help-list__card">
+          <img src="<%=require('./images/icon-medicines.svg')%>" alt="icon-medicines" />
+          <p>Medicines</p>
+        </div>
+        <div class="help-list__card">
+          <img src="<%=require('./images/icon-collars-leashes.svg')%>" alt="icon-collars-leashes" />
+          <p>Collars / leashes</p>
+        </div>
+        <div class="help-list__card">
+          <img src="<%=require('./images/icon-sleeping-area.svg')%>" alt="icon-sleeping-area" />
+          <p>Sleeping areas</p>
+        </div>
+      </div>
+    </section>
+    <section class="in-addition">
+      <div class="in-addition-container wrap">
+        <div class="in-addition-puppy">
+          <img src="<%=require('./images/donation-dog.png')%>" alt="donation-dog" />
+        </div>
+        <div class="in-addition__content">
+          <h3 class="header-3 mb-20">You can also make a donation</h3>
+          <p>Name of the bank / Type of bank account</p>
+          <div class="in-addition__num-bank">
+            <img src="<%=require('./images/credit-card.svg')%>" alt="credit-card" />
+            <p>8380 2880 8028 8791 7435</p>
+          </div>
+          <span>
+            Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et
+            vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          </span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-content wrap" id="contacts">
+        <div class="footer-content__elem">
+          <h3 class="header-3 header-3_white">For questions and suggestions</h3>
+          <a class="img-text" href="mailto:email@shelter.com">
+            <img src="<%=require('./images/icon-email.svg')%>" alt="email" />
+            <p>email@shelter.com</p>
+          </a>
+          <a class="img-text" href="tel:+136745677554">
+            <img src="<%=require('./images/icon-phone.svg')%>" alt="phone" />
+            <p>+13 674 567 75 54</p>
+          </a>
+        </div>
+        <div class="footer-content__elem">
+          <h3 class="header-3 header-3_white">We are waiting for your visit</h3>
+          <a
+            class="img-text"
+            target="_blank"
+            href="https://www.google.ru/maps/place/1+Central+St,+Boston,+MA+02109,+США/@42.3585519,-71.0573012,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370868bc2ce7b:0x82fa7db94f5fea9e!8m2!3d42.3585519!4d-71.0547263?entry=ttu"
+          >
+            <img src="<%=require('./images/icon-marker.svg')%>" alt="marker" />
+            <p>1 Central Street, Boston (entrance from the store)</p>
+          </a>
+          <a
+            class="img-text"
+            target="_blank"
+            href="https://www.google.ru/maps/search/18+South+Park,+London/@51.4446502,-0.2385124,13z/data=!3m1!4b1?entry=ttu"
+          >
+            <img src="<%=require('./images/icon-marker.svg')%>" alt="marker" />
+            <p>18 South Park, London</p>
+          </a>
+        </div>
+        <div class="footer-content__elem">
+          <img src="<%=require('./images/footer-puppy.png')%>" alt="footer-puppy" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

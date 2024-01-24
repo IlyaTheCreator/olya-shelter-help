@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="<%=require('./images/favicon.ico')%>" rel="icon" type="image/x-icon" />
+    <title>Our pets</title>
+  </head>
+  <body>
+    <header class="wrap">
+      <a href="index.html" class="logo">
+        <p class="logo__title logo__title_dark">Cozy House</p>
+        <p class="logo__subtitle logo__subtitle_dark">Shelter for pets in Boston</p>
+      </a>
+      <ul class="header__ul_dark">
+        <li><a href="index.html">About the shelter</a></li>
+        <li class="header__li_active"><a href="#">Our pets</a></li>
+        <li><a href="index.html#help">Help the shelter</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </header>
+    <section class="our-friends">
+      <div class="wrap">
+        <h1 class="header-3 header-3_center">Our friends who are looking for a house</h1>
+        <div class="cards-container">
+          <div class="our-friends__slider-card">
+            <img src="<%=require('./images/pets-katrine.png')%>" alt="pets-katrine" />
+            <p>Katrine</p>
+            <button class="btn-primary btn-secondary">Learn more</button>
+          </div>
+          <div class="our-friends__slider-card">
+            <img src="<%=require('./images/pets-jennifer.png')%>" alt="pets-jennifer" />
+            <p>Jennifer</p>
+            <button class="btn-primary btn-secondary">Learn more</button>
+          </div>
+          <div class="our-friends__slider-card">
+            <img src="<%=require('./images/pets-woody.png')%>" alt="pets-woody" />
+            <p>Woody</p>
+            <button class="btn-primary btn-secondary">Learn more</button>
+          </div>
+          <div class="our-friends__slider-card">
+            <img src="<%=require('./images/pets-sophia.png')%>" alt="pets-sophia" />
+            <p>Sophia</p>
+            <button class="btn-primary btn-secondary">Learn more</button>
+          </div>
+          <div class="our-friends__slider-card">
+            <img src="<%=require('./images/pets-timmy.png')%>" alt="pets-timmy" />
+            <p>Timmy</p>
+            <button class="btn-primary btn-secondary">Learn more</button>
+          </div>
+          <div class="our-friends__slider-card">
+            <img src="<%=require('./images/pets-charly.png')%>" alt="pets-charly" />
+            <p>Charly</p>
+            <button class="btn-primary btn-secondary">Learn more</button>
+          </div>
+          <div class="our-friends__slider-card">
+            <img src="<%=require('./images/pets-scarlet.png')%>" alt="pets-scarlet" />
+            <p>Scarlet</p>
+            <button class="btn-primary btn-secondary">Learn more</button>
+          </div>
+          <div class="our-friends__slider-card">
+            <img src="<%=require('./images/pets-freddie.png')%>" alt="pets-freddie" />
+            <p>Freddie</p>
+            <button class="btn-primary btn-secondary">Learn more</button>
+          </div>
+        </div>
+        <div class="pagination-btns">
+          <button class="pagination-btns_inactive">&#60;&#60;</button>
+          <button class="pagination-btns_inactive">&#60;</button>
+          <button class="pagination-btns__num">1</button>
+          <button class="pagination-btns_active">&#62;</button>
+          <button class="pagination-btns_active">&#62;&#62;</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-content wrap" id="contacts">
+        <div class="footer-content__elem">
+          <h3 class="header-3 header-3_white">For questions and suggestions</h3>
+          <a class="img-text" href="mailto:email@shelter.com">
+            <img src="<%=require('./images/icon-email.svg')%>" alt="email" />
+            <p>email@shelter.com</p>
+          </a>
+          <a class="img-text" href="tel:+136745677554">
+            <img src="<%=require('./images/icon-phone.svg')%>" alt="phone" />
+            <p>+13 674 567 75 54</p>
+          </a>
+        </div>
+        <div class="footer-content__elem">
+          <h3 class="header-3 header-3_white">We are waiting for your visit</h3>
+          <a
+            class="img-text"
+            target="_blank"
+            href="https://www.google.ru/maps/place/1+Central+St,+Boston,+MA+02109,+США/@42.3585519,-71.0573012,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370868bc2ce7b:0x82fa7db94f5fea9e!8m2!3d42.3585519!4d-71.0547263?entry=ttu"
+          >
+            <img src="<%=require('./images/icon-marker.svg')%>" alt="marker" />
+            <p>1 Central Street, Boston (entrance from the store)</p>
+          </a>
+          <a
+            class="img-text"
+            target="_blank"
+            href="https://www.google.ru/maps/search/18+South+Park,+London/@51.4446502,-0.2385124,13z/data=!3m1!4b1?entry=ttu"
+          >
+            <img src="<%=require('./images/icon-marker.svg')%>" alt="marker" />
+            <p>18 South Park, London</p>
+          </a>
+        </div>
+        <div class="footer-content__elem">
+          <img src="<%=require('./images/footer-puppy.png')%>" alt="footer-puppy" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
